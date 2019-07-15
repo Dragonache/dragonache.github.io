@@ -1,0 +1,75 @@
+body,
+html {
+  
+  height: 100%;
+  margin: 10;
+  }
+
+.navbar{background-color: rgb(232, 234, 93);}
+
+
+body {body font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+h1 {
+	color:rgb(149, 0, 0);
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+	
+}
+
+h2{
+	color:rgb(149, 0, 0);
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	
+}
+
+
+
+
+#nisip{
+	background: url(sand.jpg);
+	background-position: left top;
+	background-repeat:repeat;
+	padding: 15px;
+}
+
+.poze{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+	margin-top: 10px;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+h3{color:black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+
+h6{
+	color: blue;
+	text-align: right;
+	font-size: 80%;
+}
+
+.btn-primary:hover{background-color: green;
+}
+
